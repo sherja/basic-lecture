@@ -1,0 +1,81 @@
+* {
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0;
+}
+body {
+
+background-color: #222831;
+font-size: 16px;
+}
+/* genaric CSS */
+h1, h2, h3, h4, h5, h6 {
+
+
+}
+
+.container{
+                width: 100%;
+                max-width: 1320px;
+                margin: 0 auto;
+
+}
+/* Header CSS */
+header{
+            nav { 
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                    .navigation {
+
+                                    ul { 
+                                        display: flex;
+                                        list-style: none;
+                                                                                gap: 1rem;
+                                        li  {
+
+                                                a {
+                                                       font-size: 1rem;
+                                                       font-family: "Montserrat", sans-serif; 
+                                                       font-weight: 700;       
+                                                       color: white; 
+                                                       text-decoration: 0;
+                                                       position: relative;
+                                                       &:before {
+                                                        content: " ";
+                                                        position: absolute;
+                                                        left: 0;
+                                                        bottom: 0;
+                                                        right: 0;
+                                                        height: 0.25rem;
+                                                        background-color:transparent;
+                                                        
+                                                       }
+                                                       &:hover { 
+                                                        &::before{
+                                                        background-color: rgb(4, 92, 9);
+                                                         }
+
+
+                                                       }
+
+
+                                                    }
+
+                                            }
+
+
+
+
+                                        }                          
+
+
+
+
+                                } 
+                   
+
+                }
+
+
+       }
